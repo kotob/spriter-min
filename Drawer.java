@@ -1,12 +1,12 @@
-package com.brashmonkey.spriter;
+package com.brashmonkey.spritermin;
 
 import java.util.Iterator;
 
-import com.brashmonkey.spriter.Entity.CharacterMap;
-import com.brashmonkey.spriter.Entity.ObjectInfo;
-import com.brashmonkey.spriter.Entity.ObjectType;
-import com.brashmonkey.spriter.Timeline.Key.Bone;
-import com.brashmonkey.spriter.Timeline.Key.Object;
+import com.brashmonkey.spritermod.Entity.CharacterMap;
+import com.brashmonkey.spritermod.Entity.ObjectInfo;
+import com.brashmonkey.spritermod.Entity.ObjectType;
+import com.brashmonkey.spritermod.Timeline.Key.Bone;
+import com.brashmonkey.spritermod.Timeline.Key.Object;
 
 /**
  * A Drawer is responsible for drawing a {@link Player}.
@@ -182,7 +182,7 @@ public abstract class Drawer<R> {
 	/**
 	 * Draws the given player with the given character map. 
 	 * @param player the player to draw
-	 * @param map the character map to draw
+	 * @param maps the character map to draw
 	 */
 	public void draw(Player player, CharacterMap[] maps){
 		this.draw(player.objectIterator(), maps);
@@ -191,17 +191,18 @@ public abstract class Drawer<R> {
 	/**
 	 * Draws the objects the given iterator is providing with the given character map. 
 	 * @param it the iterator iterating over the objects to draw
-	 * @param map the character map to draw
+	 * @param maps the character map to draw
 	 */
 	public void draw(Iterator<Timeline.Key.Object> it, CharacterMap[] maps){
+		//removed maps updates from rendering
 		while(it.hasNext()){
 			Timeline.Key.Object object = it.next();
 			if(object.ref.hasFile()){
-				if(maps != null){
+				/*if(maps != null){
 					for(CharacterMap map: maps)
 						if(map != null)
 							object.ref.set(map.get(object.ref));
-				}
+				}*/
 				this.draw(object);
 			}
 		}
