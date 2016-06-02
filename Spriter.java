@@ -1,4 +1,4 @@
-package com.brashmonkey.spriter;
+package com.brashmonkey.spritermin;
 
 import java.io.File;
 import java.io.FileInputStream;

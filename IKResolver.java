@@ -1,10 +1,10 @@
-package com.brashmonkey.spriter;
+package com.brashmonkey.spritermin;
 
 import java.util.HashMap;
 import java.util.Map.Entry;
 
-import com.brashmonkey.spriter.Mainline.Key.BoneRef;
-import com.brashmonkey.spriter.Timeline.Key.Bone;
+import com.brashmonkey.spritermin.Mainline.Key.BoneRef;
+import com.brashmonkey.spritermin.Timeline.Key.Bone;
 
 /**
  * A IKResolver is responsible for resolving previously set constraints.

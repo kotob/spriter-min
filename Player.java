@@ -1,16 +1,16 @@
-package com.brashmonkey.spriter;
+package com.brashmonkey.spritermin;
 
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Iterator;
 import java.util.List;
 
-import com.brashmonkey.spriter.Entity.CharacterMap;
-import com.brashmonkey.spriter.Entity.ObjectInfo;
-import com.brashmonkey.spriter.Mainline.Key.BoneRef;
-import com.brashmonkey.spriter.Mainline.Key.ObjectRef;
-import com.brashmonkey.spriter.Timeline.Key.Bone;
-import com.brashmonkey.spriter.Timeline.Key.Object;
+import com.brashmonkey.spritermin.Entity.CharacterMap;
+import com.brashmonkey.spritermin.Entity.ObjectInfo;
+import com.brashmonkey.spritermin.Mainline.Key.BoneRef;
+import com.brashmonkey.spritermin.Mainline.Key.ObjectRef;
+import com.brashmonkey.spritermin.Timeline.Key.Bone;
+import com.brashmonkey.spritermin.Timeline.Key.Object;
 
 /**
  * A Player instance is responsible for updating an {@link Animation} properly.

@@ -1,4 +1,4 @@
-package com.brashmonkey.spriter;
+package com.brashmonkey.spritermin;
 
 
 

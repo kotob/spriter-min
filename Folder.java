@@ -1,4 +1,4 @@
-package com.brashmonkey.spriter;
+package com.brashmonkey.spritermin;
 
 /**
  * Represents a folder in a Spriter SCML file.

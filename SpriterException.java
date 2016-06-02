@@ -1,4 +1,4 @@
-package com.brashmonkey.spriter;
+package com.brashmonkey.spritermin;
 
 /**
  * An Exception which will be thrown if a Spriter specific issue happens at runtime.

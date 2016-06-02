@@ -1,6 +1,6 @@
-package com.brashmonkey.spriter;
+package com.brashmonkey.spritermin;
 
-import com.brashmonkey.spriter.Entity.ObjectInfo;
+import com.brashmonkey.spritermin.Entity.ObjectInfo;
 
 /**
  * Represents a time line in a Spriter SCML file.

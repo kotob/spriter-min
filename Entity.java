@@ -1,4 +1,4 @@
-package com.brashmonkey.spriter;
+package com.brashmonkey.spritermin;
 
 import java.util.ArrayList;
 import java.util.HashMap;

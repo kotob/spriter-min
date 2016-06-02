@@ -1,4 +1,4 @@
-package com.brashmonkey.spriter;
+package com.brashmonkey.spritermin;
 
 /**
  * An inverse kinematics objects which defines a constraint for a {@link IKResolver}.

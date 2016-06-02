@@ -1,6 +1,6 @@
-package com.brashmonkey.spriter;
+package com.brashmonkey.spritermin;
 
-import com.brashmonkey.spriter.Entity.ObjectInfo;
+import com.brashmonkey.spritermin.Entity.ObjectInfo;
 
 /**
  * Represents a box, which consists of four points: top-left, top-right, bottom-left and bottom-right.

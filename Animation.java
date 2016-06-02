@@ -1,12 +1,12 @@
-package com.brashmonkey.spriter;
+package com.brashmonkey.spritermin;
 
 import java.util.HashMap;
 
-import com.brashmonkey.spriter.Mainline.Key;
-import com.brashmonkey.spriter.Mainline.Key.BoneRef;
-import com.brashmonkey.spriter.Mainline.Key.ObjectRef;
-import com.brashmonkey.spriter.Timeline.Key.Bone;
-import com.brashmonkey.spriter.Timeline.Key.Object;
+import com.brashmonkey.spritermin.Mainline.Key;
+import com.brashmonkey.spritermin.Mainline.Key.BoneRef;
+import com.brashmonkey.spritermin.Mainline.Key.ObjectRef;
+import com.brashmonkey.spritermin.Timeline.Key.Bone;
+import com.brashmonkey.spritermin.Timeline.Key.Object;
 /**
  * Represents an animation of a Spriter SCML file.
  * An animation holds {@link Timeline}s and a {@link Mainline} to animate objects.

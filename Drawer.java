@@ -1,12 +1,12 @@
-package com.brashmonkey.spritermod;
+package com.brashmonkey.spritermin;
 
 import java.util.Iterator;
 
-import com.brashmonkey.spritermod.Entity.CharacterMap;
-import com.brashmonkey.spritermod.Entity.ObjectInfo;
-import com.brashmonkey.spritermod.Entity.ObjectType;
-import com.brashmonkey.spritermod.Timeline.Key.Bone;
-import com.brashmonkey.spritermod.Timeline.Key.Object;
+import com.brashmonkey.spritermin.Entity.CharacterMap;
+import com.brashmonkey.spritermin.Entity.ObjectInfo;
+import com.brashmonkey.spritermin.Entity.ObjectType;
+import com.brashmonkey.spritermin.Timeline.Key.Bone;
+import com.brashmonkey.spritermin.Timeline.Key.Object;
 
 /**
  * A Drawer is responsible for drawing a {@link Player}.

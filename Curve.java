@@ -1,4 +1,4 @@
-package com.brashmonkey.spriter;
+package com.brashmonkey.spritermin;
 
 import static  com.brashmonkey.spriter.Calculator.*;
 import static com.brashmonkey.spriter.Interpolator.*;

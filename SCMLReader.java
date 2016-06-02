@@ -1,11 +1,11 @@
-package com.brashmonkey.spritermod;
+package com.brashmonkey.spritermin;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.Arrays;
 
-import com.brashmonkey.spritermod.Entity.*;
-import com.brashmonkey.spritermod.Mainline.Key.*;
+import com.brashmonkey.spritermin.Entity.*;
+import com.brashmonkey.spritermin.Mainline.Key.*;
 import com.badlogic.gdx.utils.Array;
 import com.badlogic.gdx.utils.XmlReader;
 import com.badlogic.gdx.utils.XmlReader.*;

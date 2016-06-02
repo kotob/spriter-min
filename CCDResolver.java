@@ -1,7 +1,7 @@
-package com.brashmonkey.spriter;
+package com.brashmonkey.spritermin;
 
-import com.brashmonkey.spriter.Mainline.Key.BoneRef;
-import com.brashmonkey.spriter.Timeline.Key.Bone;
+import com.brashmonkey.spritermin.Mainline.Key.BoneRef;
+import com.brashmonkey.spritermin.Timeline.Key.Bone;
 
 /**
  * An inverse kinematics resolver implementation.
