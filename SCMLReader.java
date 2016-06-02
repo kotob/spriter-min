@@ -1,4 +1,4 @@
-package com.brashmonkey.spritermin;
+package com.brashmonkey.spritermod;
 
 import java.io.IOException;
 import java.io.InputStream;
