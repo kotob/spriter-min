@@ -1,4 +1,4 @@
-package com.brashmonkey.spritermin;
+package com.brashmonkey.spritermod;
 
 import java.util.Iterator;
 
