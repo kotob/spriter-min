@@ -1,7 +1,7 @@
 package com.brashmonkey.spritermin;
 
-import static  com.brashmonkey.spriter.Calculator.*;
-import static com.brashmonkey.spriter.Interpolator.*;
+import static  com.brashmonkey.spritermin.Calculator.*;
+import static com.brashmonkey.spritermin.Interpolator.*;
 
 /**
  * Represents a curve in a Spriter SCML file.
